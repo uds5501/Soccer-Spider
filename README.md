@@ -1,7 +1,7 @@
 # Soccer-Spider
 Coding Challenge 1 : Scraping a web site without BeautifulSoup
 
-Youtube Link : <To_be_added>
+Youtube Link : https://youtu.be/QLTxIMJbEyg
 
 ---
 #### Introduction
@@ -40,6 +40,6 @@ Result would be stored in `result.csv` ( You may delete it before running the sc
 
 And that's it, that's how you build a simple crawler !
 
-For detailed description of the scraper's working, checkout the [youtube video]()!
+For detailed description of the scraper's working, checkout the [youtube video](https://youtu.be/QLTxIMJbEyg)!
 
 Thank you [@Logan-47](https://github.com/Logan-47) for this fun challenge!
