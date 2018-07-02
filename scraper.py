@@ -16,7 +16,7 @@ class MyScraper(scrapy.Spider):
             title[i] = re.sub(u"\xa0", " ", title[i])
             title[i] = str(title[i])
         
-        publishedOn = response.xpath("//a/time[@class='updated']/text()").extract()
+        publishedOn = response.xpath("//a/time[@class='entry-date published']/text()").extract()
 
         # Converting dates to strings
         for i in range(len(publishedOn)):
